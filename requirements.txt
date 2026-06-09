@@ -1,0 +1,27 @@
+# Core ML
+torch>=2.1
+torchvision
+transformers>=4.40
+datasets>=2.16
+accelerate>=0.28
+bitsandbytes>=0.43
+
+# Training
+trl>=0.8
+peft>=0.9
+
+# Unsloth (install separately from GitHub)
+# pip install "unsloth[cu118-torch250] @ git+https://github.com/unslothai/unsloth.git"
+
+# Inference & deployment
+gradio>=4.0
+huggingface_hub>=0.22
+
+# Evaluation
+evalplus  # optional, for HumanEval/MBPP
+
+# Utilities
+sentencepiece
+protobuf
+einops
+scipy
